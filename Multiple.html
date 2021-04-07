@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>abcLab Interface</title>
+    </head>
+    <body>
+        <h1>abcLab Interface<h1>
+        <form id="form1" method="post" action="/api/upload/web" enctype="multipart/form-data">
+    	    <div>
+    	        <input id="File1" type="file" name="myfile" multiple="true" autocomplete="off" required/>
+                <input type="submit" value="Upload">
+    	    </div>
+        </form>
+        <form id="form2" action="/download/all">
+            <button type="submit">download</button>
+        </form>
+    </body>
+</html>
+
